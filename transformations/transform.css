@@ -1,0 +1,34 @@
+/* img {
+    height: 150px;
+    animation-name: twirl;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+img:hover{
+    height:300px;
+    
+}
+
+@keyframes twirl {
+    from {
+        transform:rotate(0deg);
+    } to {
+        transform:rotate(360deg);
+    }
+}
+
+*/
+
+div {
+    height:100px;
+    width:100px;
+    background-color: #800000;
+    transition-duration: 1s;
+}
+
+.element:hover{
+     transform:translateX(100%);
+     background-color: #008080;
+}
